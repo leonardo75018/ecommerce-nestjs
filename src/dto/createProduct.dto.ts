@@ -3,6 +3,10 @@ export class  CreateProductDto{
     name: string;
     price : number;
     description : string; 
-    quantity : string;
-    collection : string;
+    image : string;
+    quantity : number;
+    collection? : string;
 }
+
+
+
